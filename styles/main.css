@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+}
+
+header > h1,
+header > h2,
+header > h3,
+header > h4,
+header > h5,
+header > h6,
+header > p,
+footer > p {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+}
+
+th,
+td {
+    padding: 1rem;
+}
+
+.container {
+    width: 870px;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: dimgrey;
+    color: white;
+}
