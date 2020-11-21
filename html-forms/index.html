@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <p>A demonstration of HTML registration form</p>
+    <hr>
+    <form action="some-action.html" method="post">
+        <fieldset>
+            <legend>
+                <h2>Registration Form</h2>
+            </legend>
+            <label for="firstname">Firstname: </label>
+            <input id="firstname" name="firstname" type="text" placeholder="Your firstname"> <br>
+            <label for="lastname">Lastname: </label>
+            <input id="lastname" name="lastname" type="text" placeholder="Your lastname"> <br>
+            <label for="age">Age: </label>
+            <input id="age" name="age" type="number" placeholder="Your age" min="18" max="100"> <br>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" placeholder="Your email"> <br>
+            <label for="password">Password: </label>
+            <input id="password" name="password" type="password" placeholder="Your password"> <br>
+            <label>Gender: </label>
+            <label for="male">Male</label><input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label><input type="radio" name="gender" id="female" value="female"> <br>
+            <label>Checkboxes: </label>
+            <input type="checkbox" name="person-type" id="student" value="student"> <label for="student">I am a
+                student</label>
+            <input type="checkbox" name="person-type" id="businessman" value="businessman"> <label for="businessman">I
+                am a
+                businessman</label> <br>
+            <label for="birthday">Birthday: </label><input id="birthday" type="date" name="birthday"> <br>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
