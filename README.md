@@ -6,3 +6,4 @@ https://vakho10.github.io/it-programming
 
 ## Projects
 1. [My First HTML Project](https://vakho10.github.io/it-programming/my-first-html-project)
+2. [My First Forms](https://vakho10.github.io/it-programming/html-forms)
