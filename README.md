@@ -6,3 +6,4 @@ https://vakho10.github.io/it-programming
 
 ## Projects
 1. [My First HTML Project](https://vakho10.github.io/it-programming/my-first-html-project)
+2. [My Responsive Blog](https://vakho10.github.io/it-programming/my-responsive-blog)
